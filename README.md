@@ -50,3 +50,20 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+## Use Case
+
+The goal of this use case is to showcase your skills and experience in frontend development. We want to see how you approach a problem and how you structure your code. We are not looking for a perfect solution, but rather a solution that you are proud of and that you can explain to us.
+
+### Task
+
+1. Create a new page to display a list of users.
+2. Users should be fetched from [API random user](https://api-ninjas.com/api/randomuser).
+3. Each user should be displayed in a card with the following fields:
+   1. Name
+   2. Username
+   3. Email
+   4. Address
+   5. Birthday
+4. The cards should be sortable with drag and drop. To do this please use the [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) library.
+5. Add the necessary files to make the application runnable in a Docker container.
